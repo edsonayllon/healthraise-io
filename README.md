@@ -2,7 +2,7 @@
 
 # Hackathon -- Saving Lives
 
-Judging Criteria: https://github.com/ConsenSys/Beyond-Blockchain-Relay/blob/master/judging-criteria.md
+
 
 ## 1 | Description
 
@@ -11,7 +11,9 @@ We are looking for entrepreneurs and builders to design new protocols and financ
 In the race to provide accessible care at an affordable cost with high quality, healthcare companies new and old alike are heavily dependent on data that can be shared and accessed as easily as our shipping preferences.
 
 
-## 2 |  Value Criteria/Constraints
+## 2 |  Value Appraisal
+
+Judging Criteria Provided: https://github.com/ConsenSys/Beyond-Blockchain-Relay/blob/master/judging-criteria.md
 
 * Use case problem definition by industry and target user
 * Industry insights (marketing and market research)
