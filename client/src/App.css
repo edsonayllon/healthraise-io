@@ -8,7 +8,24 @@
 .nav {
   padding: 2.5%;
   background-color: #f6f6f6;
-  flex: 1
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-user {
+  border-top: #ded6d9 solid 1px;
+  padding-top: 20px;
+}
+
+.button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #3bb4c1;
+  display: block;
+  padding: 10px;
+  text-align: center;
 }
 
 .content {

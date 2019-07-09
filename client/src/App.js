@@ -1,12 +1,35 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const [ethereum, setEthereum] = useState({});
+  const [address, setAddress] = useState('');
+
+  const handleLogin = async () => {
+    console.log(ethereum);
+    ethereum.enable();
+    var newAddress = await ethereum.selectedAddress;
+    console.log(newAddress);
+    setAddress(newAddress);
+    console.log(address);
+  }
+
+  useEffect(()=>{
+    const ethereum = window.ethereum;
+    setEthereum(ethereum);
+  },[])
+
   return (
     <div className="container">
       <div className="nav">
-        <h1>Title</h1>
+        <div className="nav-menu">
+          <h1>Title</h1>
+        </div>
+
+        <div className="nav-user">
+          <a href="#" className="button" onClick={handleLogin}>Login with Metamask</a>
+        </div>
       </div>
       <div className="content">
         <div className="tile">
