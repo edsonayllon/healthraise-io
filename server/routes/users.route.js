@@ -29,9 +29,7 @@ router.post('/', async function(req, res, next) {
       console.log('error saving user');
       return;
     }
-    res.json({
-      message: 'account created'
-    })
+    res.json(user);
   })
 });
 
