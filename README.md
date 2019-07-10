@@ -69,43 +69,43 @@ For this idea, the target market contains the following characteristics:
 
 #### 5.1.1 Iteration
 
-![Alt text](./images/Screenshot_2.jpg)
-![Alt text](./images/Screenshot_3.jpg)
-![Alt text](./images/Screenshot_6.jpg)
-![Alt text](./images/Screenshot_7.jpg)
-![Alt text](./images/Screenshot_8.jpg)
-![Alt text](./images/Screenshot_9.jpg)
-![Alt text](./images/Screenshot_10.jpg)
+![Alt text](./documentation/Screenshot_2.jpg)
+![Alt text](./documentation/Screenshot_3.jpg)
+![Alt text](./documentation/Screenshot_6.jpg)
+![Alt text](./documentation/Screenshot_7.jpg)
+![Alt text](./documentation/Screenshot_8.jpg)
+![Alt text](./documentation/Screenshot_9.jpg)
+![Alt text](./documentation/Screenshot_10.jpg)
 
 #### 5.1.2 Appraisal
 
 These will be appraised by individual comments and by visual ranking.
 
-![Alt text](./images/Screenshot_7.jpg)
+![Alt text](./documentation/Screenshot_7.jpg)
 
 Circular design for profile makes centering photo at the top of the page clean. May use a similar design to this in final profiles.
 
-![Alt text](./images/Screenshot_8.jpg)
+![Alt text](./documentation/Screenshot_8.jpg)
 
 Possibly the best design for curation of profiles and fundraising goals.
 
-![Alt text](./images/Screenshot_3.jpg)
+![Alt text](./documentation/Screenshot_3.jpg)
 
 Much better navigation style for querying the listed features. Grid option is off. Better of it were 2 columns well spaced, rather than cut in the bottom.  Interesting to put likes below profile photo. Also, interesting decision to make profile photo so large.
 
-![Alt text](./images/Screenshot_9.jpg)
+![Alt text](./documentation/Screenshot_9.jpg)
 
 Circles for the grid design are more aesthetically pleasing, possibly due to whitespace. However, looks more like a directory rather than a funding site. Needs more description possibly.
 
-![Alt text](./images/Screenshot_6.jpg)
+![Alt text](./documentation/Screenshot_6.jpg)
 
 Grid composition like this removes much needed information, oversimplifies each topic. Would prefer more detail.
 
-![Alt text](./images/Screenshot_10.jpg)
+![Alt text](./documentation/Screenshot_10.jpg)
 
 Unknown what utility having an extra column for information would bring to these tiles.
 
-![Alt text](./images/Screenshot_2.jpg)
+![Alt text](./documentation/Screenshot_2.jpg)
 
 First structure which was made. Traditional navigation. Boring composition. Header navigation does poorly for query options.
 
