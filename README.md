@@ -9,8 +9,6 @@ In the race to provide accessible care at an affordable cost with high quality, 
 
 ## 2 |  Value Appraisal
 
-Judging Criteria Provided: https://github.com/ConsenSys/Beyond-Blockchain-Relay/blob/master/judging-criteria.md
-
 * Use case problem definition by industry and target user
 * Industry insights (marketing and market research)
 * Proof of market disruption (market research)
