@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
 const config = require('./config');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var usersRouter = require('./routes/users.route');
 var authRouter = require('./routes/auth.route');
 
 var app = express();
@@ -45,7 +45,7 @@ mongoose.connect(config.MONGO_URI, {
 
 // handle api routing
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/api/users', usersRouter);
 app.use('/api/auth', authRouter);
 
 // catch 404 and forward to error handler

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../App.css';
 import ProfileTile from '../components/ProfileTile';
 import { Link } from "react-router-dom";
+import config from '../config';
 
 function App() {
   const [ethereum, setEthereum] = useState({});
@@ -16,9 +17,15 @@ function App() {
     console.log(address);
   }
 
+  const checkApi = async () => {
+    const res = await fetch(`${config.API_ADDR}/api/users`);
+    console.log(await res.text());
+  }
+
   useEffect(()=>{
     const ethereum = window.ethereum;
     setEthereum(ethereum);
+    checkApi();
   },[])
 
   return (
