@@ -1,8 +1,4 @@
-# saving lives temp
-
-# Hackathon -- Saving Lives
-
-
+# Healthraise | Consensys Saving Lives Hackathon
 
 ## 1 | Description
 
