@@ -22,11 +22,11 @@ function App() {
     });
     const users = await res.json();
     console.log(users);
-    if (users === {}) {
-      signUp(newAddress);
-    } else {
+    if (users.name) {
       setName(users.name);
       setAuthenticated(true);
+    } else {
+      signUp(newAddress);
     }
   }
 
@@ -40,6 +40,8 @@ function App() {
       method: 'POST'
     })
     const json = await res.json();
+    setName(address);
+    setAuthenticated(true);
   }
 
   useEffect(()=>{
