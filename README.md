@@ -141,3 +141,35 @@ Orange is associated with orange foods such as oranges, however, green is associ
 * https://colorhunt.co/palette/147250
 * https://colorhunt.co/palette/147574
 
+# 7 | Roadmap
+
+## 7.1 Minimal Viable Product
+
+### 7.1.1 Frontend
+
+- [x] Initiate a React App client
+- [x] Add menu and content containers
+- [x] Add tiles
+  - [x] Have space for profile image
+  - [x] Add likes, dislikes bar (crude)
+  - [x] Have user title and description
+- [x] Fill menu
+  - [x] Create a product title, add it
+  - [x] Create an unordered list, style
+  - [x] Add login with metamask button
+- [x] Authentication
+  - [x] Prompts user for their public address
+
+### 7.1.2 Server
+
+- [x] Initiate an Express Server
+- [ ] Authentication
+  - [ ] Add mongoose connection
+  - [ ] Create user schema
+  - [ ] Create route that handles authentication
+- [ ] Reviews
+  - [ ] Create review schema
+
+### 7.1.3 Smart Contract
+
+- [ ] Initiate contract stack
