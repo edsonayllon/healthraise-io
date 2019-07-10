@@ -159,16 +159,19 @@ Orange is associated with orange foods such as oranges, however, green is associ
   - [x] Add login with metamask button
 - [x] Authentication
   - [x] Prompts user for their public address
+  - [x] Saves user address
+  - [ ] Checks if account has been created in the server
+  - [ ] Creates account if it doesn't exist on the server
 
 ### 7.1.2 Server
 
 - [x] Initiate an Express Server
 - [ ] Authentication
-  - [ ] Add mongoose connection
-  - [ ] Create user schema
+  - [x] Add mongoose connection
+  - [x] Create user schema
   - [ ] Create route that handles authentication
 - [ ] Reviews
-  - [ ] Create review schema
+  - [x] Create review schema
 
 ### 7.1.3 Smart Contract
 
