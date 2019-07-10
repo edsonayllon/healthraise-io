@@ -163,7 +163,8 @@ Orange is associated with orange foods such as oranges, however, green is associ
 - [ ] Authentication
   - [x] Add mongoose connection
   - [x] Create user schema
-  - [ ] Create route that handles authentication
+  - [x] Create route that handles authentication
+  - [ ] Read url parameters from users route
 - [ ] Reviews
   - [x] Create review schema
 

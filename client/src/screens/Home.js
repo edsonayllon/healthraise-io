@@ -1,31 +1,50 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
-import ProfileTile from '../components/ProfileTile';
+import {
+  ProfileTile,
+  SettingsButton
+} from '../components';
 import { Link } from "react-router-dom";
 import config from '../config';
 
 function App() {
   const [ethereum, setEthereum] = useState({});
   const [address, setAddress] = useState('');
+  const [authenticated, setAuthenticated] = useState(false);
+  const [name, setName] = useState('');
 
   const handleLogin = async () => {
-    console.log(ethereum);
     ethereum.enable();
     var newAddress = await ethereum.selectedAddress;
-    console.log(newAddress);
     setAddress(newAddress);
-    console.log(address);
+    const res = await fetch(`${config.API_ADDR}/api/users?address=${newAddress}`, {
+      method: 'GET'
+    });
+    const users = await res.json();
+    console.log(users);
+    if (users === {}) {
+      signUp(newAddress);
+    } else {
+      setName(users.name);
+      setAuthenticated(true);
+    }
   }
 
-  const checkApi = async () => {
-    const res = await fetch(`${config.API_ADDR}/api/users`);
-    console.log(await res.text());
+  const signUp = async (address) => {
+    console.log('ran');
+    const res = await fetch(`${config.API_ADDR}/api/users`, {
+      body: JSON.stringify({ address }),
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      method: 'POST'
+    })
+    const json = await res.json();
   }
 
   useEffect(()=>{
     const ethereum = window.ethereum;
     setEthereum(ethereum);
-    checkApi();
   },[])
 
   return (
@@ -40,20 +59,26 @@ function App() {
         </div>
 
         <div className="nav-user">
-          <a href="#" className="button" onClick={handleLogin}>Login with Metamask</a>
+          {
+            authenticated ? <SettingsButton name={name} />
+            : <a href="#" className="button" onClick={handleLogin}>Login with Metamask</a>
+          }
         </div>
       </div>
       <div className="content">
-        <ProfileTile name={"user1"}
-          description = { `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
-          an unknown printer took a galley of type and scrambled it to make a type specimen
-          book. It has survived not only five centuries, but also the leap into electronic
-          typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-          with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.` }
-          goal="3"
-          raised='20'
+        <ProfileTile name={"Penn State Children’s Hospital"}
+          description = { `The money raised allows us to use novel
+            approaches in laboratory based research to
+            understand mechanisms that cause
+            pediatric cancer and to find pathways that
+            can be targeted with new drugs. It provides
+            the infrastructure for early phase clinical
+            &ials to test how new drugs work and
+            identify the best ways to use them together
+            and with chemotherapy.
+            ` }
+          goal="na"
+          raised='15,892.69'
         />
         <ProfileTile name="user2"
           description = { `Lorem Ipsum is simply dummy text of the printing and typesetting industry.

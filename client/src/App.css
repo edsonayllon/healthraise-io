@@ -31,7 +31,6 @@
   color: #048998;
 }
 
-
 .nav-user {
   border-top: #ded6d9 solid 1px;
   padding-top: 20px;
@@ -42,9 +41,21 @@
   text-decoration: none;
   color: #fff;
   background-color: #3bb4c1;
-  display: block;
+  display: flex;
+  flex:1;
+  flex-direction: row;
+  align-items: center;
   padding: 10px;
   text-align: center;
+  justify-content: space-between
+}
+
+.menu-settings-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  border-left: 1px #000 solid;
+  padding-left: 5px;
 }
 
 .content {

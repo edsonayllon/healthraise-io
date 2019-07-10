@@ -6,7 +6,7 @@ const ReviewSchema = new mongoose.Schema({
   body: { type: String, default: '' },
   upvote: { type: Boolean, default: false },
   downvote: { type: Boolean, default: false },
-  helpful: { type: int, default: 0 }
+  helpful: { type: Number, default: 0 }
 });
 
 module.exports = mongoose.model('review', ReviewSchema);
