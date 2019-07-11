@@ -111,7 +111,7 @@ function App() {
           <h1>Healthraise</h1>
           <ul>
            <li><Link to="/">Organizations</Link></li>
-           <li><Link to="/">People</Link></li>
+           <li><Link to="/individuals">Individuals</Link></li>
           </ul>
         </div>
 

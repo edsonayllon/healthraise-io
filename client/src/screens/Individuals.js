@@ -111,7 +111,7 @@ function App() {
           <h1>Healthraise</h1>
           <ul>
            <li><Link to="/">Organizations</Link></li>
-           <li><Link to="/">People</Link></li>
+           <li><Link to="/individuals">Individuals</Link></li>
           </ul>
         </div>
 
@@ -131,28 +131,31 @@ function App() {
           downvote="0"
           raised='0'
         />
-        <ProfileTile name="Mark and Mary Stevens Neuroimaging and Informatics Institute"
-          description = { `The research hub aims to foster the "translation of
-          basic research into new therapies, preventions and cures for brain
-          injury and disease, including Alzheimer’s, schizophrenia and traumatic
-          brain injury."` }
+        <ProfileTile name="John Doe"
+          description = { `Seeking funding for expensive back surgery. Was recently layed off a job. Fell down the stairs going to help my kid set up his new Playstation 4. I've been feeling numbness and pain across my arms since, for the past 4 months.` }
           goal="20"
-          raised='175,722.20'
-          upvote="34512"
-          downvote="23"
+          raised='2.67'
+          upvote="33"
+          downvote="0"
         />
-        <ProfileTile name="University of Iowa"
-          description = { `Glaucoma and pediatric cancer research programs. ` }
+        <ProfileTile name="Stacey Gray"
+          description = { `Recently discovered I developed stage 1 cancer. I don't know what to do. I recently started my own business, so I do not have a company providing healthcare for me. In serious need.` }
           goal="10"
-          raised='31,630.00'
-          upvote="4512"
-          downvote="21"
+          raised='0.5'
+          upvote="12"
+          downvote="0"
         />
-        <ProfileTile name="West Virginia University" description = { `Juvenile diabetes research program.` }
+        <ProfileTile name="Malcom George" description = { `Recently my puppy Joy had to be taken to the vet. She's fine now, but I had to pay 2k for the surgery. Looking for help, as this was an unexpected event.` }
           goal="7"
-          raised='3514.44'
-          upvote="512"
-          downvote="15"
+          raised='4.01'
+          upvote="245"
+          downvote="2"
+        />
+        <ProfileTile name="Katie X" description = { `Need money for spring break.` }
+          goal="7"
+          raised='0'
+          upvote="2"
+          downvote="3243"
         />
       </div>
     </div>
