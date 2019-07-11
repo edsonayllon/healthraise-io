@@ -8,7 +8,7 @@ Healthraise.io
 
 Just lost your job and find yourself without healthcare coverage after becoming victim to an accident? Never had healthcare to begin with and find yourself stuck paying an expensive operation? Need public funding for academic research in the Health industry?
 
-Healthraise allows the posting and public viewing of fundraising incentives curated to philanthropists who will help your financial needs so you can get more health, not more burden.
+Healthraise allows the posting and public viewing of fundraising incentives curated to philanthropists who will help you financially--so you can get more health, not more burden.
 
 ## Project Team
 List each team member, along with the below fields
