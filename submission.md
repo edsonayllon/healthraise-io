@@ -14,7 +14,7 @@ Healthraise allows the posting and public viewing of fundraising incentives cura
 
 Fullstack developer, business architecture:
 * Edson Ayllon
-* Please contact me on LinkedIn: [@edson-ayllon](https://www.linkedin.com/in/edson-ayllon/)
+* Contact me on LinkedIn: [@edson-ayllon](https://www.linkedin.com/in/edson-ayllon/)
 * OK to contact about future hackathons.
 
 ## Project Advisor(s)
