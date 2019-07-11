@@ -7,7 +7,8 @@
 Ethereum Health Platform project installation instructions.
 
 - See [Submission Readme](./submission.md) for Consensys hackathon submission information.
-- See [Project Document](./project-document.md) for design process and development roadmap.
+- See [Whitepaper](./project-document.md) for a detailed explanation of the project.
+- See [Product Design Documentation](./project-document.md) for design process and development roadmap.
 
 ## 2 |  Getting Started
 
