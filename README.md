@@ -2,10 +2,9 @@
 
 ## 1 | Description
 
-We are looking for entrepreneurs and builders to design new protocols and financial instruments that support the long-term, global health and wellness of patients, insurers, and medical providers.
+![Alt text](./documentation/Health.gif)
 
-In the race to provide accessible care at an affordable cost with high quality, healthcare companies new and old alike are heavily dependent on data that can be shared and accessed as easily as our shipping preferences.
-
+Ethereum Health Platform project.
 
 ## 2 |  Value Appraisal
 
