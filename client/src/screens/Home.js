@@ -19,9 +19,7 @@ function App() {
     if (!ethereum.selectedAddress || !window.web3.eth.accounts[0]) {
       try {
         // Request account access if needed
-
         const result = await ethereum.enable();
-        console.log(result);
 
         // We don't know window.web3 version, so we use our own instance of Web3
         // with the injected provider given by MetaMask
@@ -38,7 +36,6 @@ function App() {
       method: 'GET'
     });
     var users = await res.json();
-    console.log(users);
     if (users.name) {
       setName(users.name);
       setAuthenticated(true);
@@ -47,7 +44,6 @@ function App() {
     }
 
     const payload = await handleSignatureStamp(users.address, users.nonce);
-    console.log(payload);
     const result = await authenticate(payload);
   }
 
@@ -117,7 +113,7 @@ function App() {
 
         <div className="nav-user">
           {
-            authenticated ? <SettingsButton name={name} />
+            authenticated || ethereum.selectedAddress ? <Link to="/settings"><SettingsButton name={ethereum.selectedAddress} /></Link>
             : <a href="#" className="button" onClick={handleLogin}>Login with Metamask</a>
           }
         </div>

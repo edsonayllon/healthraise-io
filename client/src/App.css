@@ -3,6 +3,7 @@
   flex-direction: row;
   flex: 1;
   height: 100%;
+  width: 100%;
 }
 
 .nav {
@@ -72,6 +73,17 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 20px
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.profile .tile-profile {
+  width: 150px;
+  margin: auto;
 }
 
 .tile-profile, .tile-description {
