@@ -11,7 +11,7 @@ In 2010, [16% of the US population remained uninsured](https://saylordotorg.gith
 
 The biggest issue in medicine isn't a needed innovation in technology. The biggest problem in medicine is financing.
 Institutions researching new medical cures and technologies do their research on the funding of others.
-Likewise, individuals require funding as well. In 2010, there wer [~50 million Americans](https://saylordotorg.github.io/text_social-problems-continuity-and-change/s16-04-problems-of-health-care-in-the.html) without financial health coverage.
+Likewise, individuals require funding as well. In 2010, there were [~50 million Americans](https://saylordotorg.github.io/text_social-problems-continuity-and-change/s16-04-problems-of-health-care-in-the.html) without financial health coverage.
 
 Healthraise.io offers a social platform for healthcare funding, whether it's an organization providing children chemotherapy or an individual recently laid off their job who was told they developed diabetes by their doctor.
 
