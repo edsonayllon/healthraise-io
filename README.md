@@ -2,7 +2,7 @@
 
 ## 1 | Description
 
-![Alt text](./documentation/Health.gif)
+![Alt text](./documentation/health.gif)
 
 Ethereum Health Platform project.
 
