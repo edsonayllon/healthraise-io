@@ -6,6 +6,8 @@
 
 Ethereum Health Platform project.
 
+See [submission Readme](./submission.md)
+
 ## 2 |  Value Appraisal
 
 * Use case problem definition by industry and target user
