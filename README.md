@@ -1,4 +1,4 @@
-# Healthraise | Consensys Saving Lives Hackathon
+# Healthraise.io
 
 ## 1 | Description
 

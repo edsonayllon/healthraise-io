@@ -1,4 +1,4 @@
-# Healthraise | Consensys Saving Lives Hackathon
+# Healthraise.io Product Design Documentation and Development Roadmap
 
 ## 1 | Description
 
