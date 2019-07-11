@@ -154,20 +154,68 @@ Orange is associated with orange foods such as oranges, however, green is associ
 - [x] Authentication
   - [x] Prompts user for their public address
   - [x] Saves user address
-  - [ ] Checks if account has been created in the server
-  - [ ] Creates account if it doesn't exist on the server
+  - [x] Checks if account has been created in the server
+  - [x] Creates account if it doesn't exist on the server
+  - [x] Returns account if it exists in the database and after it has been created, contains nonce
+  - [x] Metamask signs nonce with a message, user confirms
+  - [x] Sends signature with address to server for json web token
+  - [x] Recieves json web token
+  - [ ] Create restricted routes based on the json web token
+- [ ] Handle Review Creation
+  - [ ] Allows upvotes and down votes, saved to the Ethereum blockchain
+  - [ ] Allows written reviews, saved to the server database
+- [ ] Smart contract interaction
+  - [ ] Connect frontend to smart contract
+  - [ ] Queries accounts from the smart contract, displays based on search
+  - [ ] Allow upvoting and downvoting through the smart Contract
+  - [ ] Allow the sending of funds through the smart contract
 
 ### 7.1.2 Server
 
 - [x] Initiate an Express Server
-- [ ] Authentication
+- [x] Authentication
   - [x] Add mongoose connection
   - [x] Create user schema
   - [x] Create route that handles authentication
-  - [ ] Read url parameters from users route
+  - [x] Read url parameters from users routes
+  - [x] Query if an account exists
+  - [x] Create an account in the database when prompted
+  - [x] Recieve signature from the client
+  - [x] Create a json web token if user signed properly, send to client
+  - [ ] Create restricted routes requiring json web token
+- [ ] Updating User Accounts
+  - [ ] Restrict user account manipulation by json web token requirement
+  - [ ] Allow changing of bio and name
 - [ ] Reviews
   - [x] Create review schema
+  - [ ] Have a route that handles creating new reviews
+  - [ ] Have a route that handles reading reviews for display on the frontend
 
 ### 7.1.3 Smart Contract
 
-- [ ] Initiate contract stack
+- [x] Initiate contract stack
+- [x] Create an account structure
+- [x] Make an array of account structures
+- [x] Be able to querry an account based on a public key
+- [x] Enable upvotes and downvotes actions
+- [x] Enable sponsorship action
+  - [x] Transfers funds
+  - [x] Adds account raised by increment of funds transfered
+- [x] Emit events
+  - [x] on funds transfered
+  - [x] on account created
+
+
+## 7.2 Advanced Features
+
+### 7.2.1 Smart Contract
+
+- [ ] Query all accounts found using dApp
+- [ ] Enable making an account a business account (a verified Health Organization)
+  - [ ] Perform action only until 2 forms of identification seen (requires centralized solution to mitigate fradualent accounts)
+  - [ ] Once account is verified, mark as verified manually
+  - [ ] Charge ETH for making an account an organization account (mitigates fradualent accounts)
+
+### 7.2.2 Frontend
+
+- [ ] Animations
