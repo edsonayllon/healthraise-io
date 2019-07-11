@@ -36,7 +36,7 @@ Fullstack developer, business architecture:
 - **[Installation instructions](./README.md)**
 - **[Day 1 Livestream](https://www.twitch.tv/videos/450498606)**
 - **[Day 2 Livestream](https://www.twitch.tv/videos/450533156)**
-- **[Day 3 Livestream](https://www.twitch.tv/videos/450973846)]**
+- **[Day 3 Livestream](https://www.twitch.tv/videos/450973846)**
 
 ## Project Launch Page
 
