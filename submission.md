@@ -35,3 +35,5 @@ If some of your material cannot be uploaded to GitHub (ie. Google Slides, a pitc
 - **Demo URL:**
 
 ## Project Launch Page
+
+![Alt text](./documentation/health.gif)
