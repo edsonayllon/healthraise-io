@@ -11,8 +11,8 @@ Just lost your job and find yourself without healthcare coverage after becoming 
 Healthraise allows the posting and public viewing of fundraising incentives curated to philanthropists who will help you financially&mdash;so you can get more health, not more burden.
 
 ## Project Team
-List each team member, along with the below fields
 
+Fullstack developer, business architecture:
 * Edson Ayllon
 * Please contact me on LinkedIn: [@edson-ayllon](https://www.linkedin.com/in/edson-ayllon/)
 * OK to contact about future hackathons.
