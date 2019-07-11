@@ -19,6 +19,10 @@ Fullstack developer, business architecture:
 
 ## Project Advisor(s)
 
+[Seth W.F. Pichette](https://www.linkedin.com/in/seth-w-f-pichette-36b12b94/)&mdash;Author of the 2017 Initial Vermont Municipal Digital Currency and Blockchain Health Care Proposal. [Connect with him on LinkedIn](https://www.linkedin.com/in/seth-w-f-pichette-36b12b94/).
+
+> Testing blockqoute
+
 ## Link to Ancillary Material
 If some of your material cannot be uploaded to GitHub (ie. Google Slides, a pitch on Youtube, a metrics dashboard on BareMetrics), list it here!
 
