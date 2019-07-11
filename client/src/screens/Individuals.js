@@ -117,7 +117,7 @@ function App() {
 
         <div className="nav-user">
           {
-            authenticated || ethereum.selectedAddress ? <Link to="/settings"><SettingsButton name={ethereum.selectedAddress} /></Link>
+            authenticated ? <Link to="/settings"><SettingsButton name={ethereum.selectedAddress} /></Link>
             : <a href="#" className="button" onClick={handleLogin}>Login with Metamask</a>
           }
         </div>
