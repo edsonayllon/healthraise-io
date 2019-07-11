@@ -11,7 +11,7 @@ In 2010, [16% of the US population remained uninsured](https://saylordotorg.gith
 
 The biggest issue in medicine isn't a needed innovation in technology. The biggest problem in medicine is financing.
 Institutions researching new medical cures and technologies do their research on the funding of others.
-Likewise, individuals require funding as well. In 2010, there were [~50 million Americans](https://saylordotorg.github.io/text_social-problems-continuity-and-change/s16-04-problems-of-health-care-in-the.html) without financial health coverage.
+Likewise, individuals require funding as well. In 2010, there were [~50 million Americans](https://saylordotorg.github.io/text_social-problems-continuity-and-change/s16-04-problems-of-health-care-in-the.html) without healthcare coverage.
 
 Healthraise.io offers a social platform for healthcare funding, whether it's an organization providing children chemotherapy or an individual recently laid off their job who was told they developed diabetes by their doctor.
 
@@ -19,6 +19,6 @@ Organizations can also be rated by individuals, as so to record incidences of me
 
 To mitigate false reviews by part of an organization, reviews are stored on Ethereum smart contracts, as to require gas per review, in order to mitigate fraudulent reviews. Additionally, to mitigate actors impersonating accredited organizations, verified status, and organization status must be passed by the owner of the contract, so no mal-intentioned actor can steal money by posing as an organization for fraudulent purposes.
 
-Written reviews are stored off-chain, as to alleviate costs of Ethereum storage for writing detailed reviews by members.
+Written reviews are stored off-chain, as to alleviate costs of Ethereum storage for our users.
 
 Healthraise funding&mdash;so you can get more health, not more burden.
