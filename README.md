@@ -13,8 +13,9 @@ See [Project Document](./project-document.md) for design process and development
 
 ### 2.1 Install
 
-* Requires Node.js: [Visit website for installation](https://nodejs.org/en/)
-* Requires Mongodb installation. [See Mongodb documentation for instructions](https://docs.mongodb.com/manual/installation/)
+* Requires Node.js: [Visit Node.js website for installation](https://nodejs.org/en/)
+* Requires Mongodb installation: [See Mongodb documentation for instructions](https://docs.mongodb.com/manual/installation/)
+* Requires Metamask: [Visit Metamask.io for installation instructions](https://metamask.io/)
 
 Install the client:
 
@@ -29,3 +30,29 @@ Install server dependencies:
 cd server
 npm install || yarn
 ```
+
+### 2.2 Run
+
+Start mongodb instance:
+
+```
+mongod
+```
+
+Start server instance:
+
+```
+cd server
+npm run start || yarn start
+```
+
+Start client instance:
+
+```
+cd client
+npm run start || yarn start
+```
+
+The client should open in a new tab on your default browser.
+
+*Note: Metamask is required for some functionality.*
