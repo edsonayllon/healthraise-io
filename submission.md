@@ -13,9 +13,9 @@ Healthraise allows the posting and public viewing of fundraising incentives cura
 ## Project Team
 List each team member, along with the below fields
 
-* Team members Name
-* Team member email
-* OK to contact about future hackathons?
+* Edson Ayllon
+* Please contact me on LinkedIn: [@edson-ayllon](https://www.linkedin.com/in/edson-ayllon/)
+* OK to contact about future hackathons.
 
 ## Project Advisor(s)
 
