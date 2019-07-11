@@ -10,7 +10,7 @@ Just lost your job and find yourself without healthcare coverage after becoming 
 
 Healthraise allows the posting and public viewing of fundraising incentives curated to philanthropists who will help you financially&mdash;so you can get more health, not more burden.
 
-[See Pitch Deck for a more detailed explanation](./pitch.md).
+[See Pitch Deck for a more detailed explanation](./whitepaper.md).
 
 ## Project Team
 
@@ -31,7 +31,7 @@ Fullstack developer, business architecture:
 
 ## Link to Ancillary Material
 
-- **[Pitch Deck:](./pitch.md)**
+- **[Whitepaper](./whitepaper.md)**
 - **[Product Roadmap & Design Documentation](./project-document.md)**
 - **[Installation instructions](./README.md)**
 
