@@ -38,3 +38,5 @@ Fullstack developer, business architecture:
 ## Project Launch Page
 
 ![Alt text](./documentation/health.gif)
+
+[Install the project locally](./README.md) to see project.
