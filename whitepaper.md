@@ -26,3 +26,9 @@ Healthraise.io offers a social platform for healthcare funding, whether it's an 
 
 Organizations can also be rated by individuals, as so to record incidences of medical malpractice, so individuals can choose wisely which provider to consult with their greatest need, their health.
 
+To mitigate false reviews by part of an organization, reviews are stored on Ethereum smart contracts, as to require gas per review, in order to mitigate fradualant reviews.
+Additionally, to mitigate actors impersonating accredited organizations, verified status and organization status must be passed by the owner of the contract, so no malintentioned actor can steal money by posing as an organization for fraudulant purposes.
+
+Written reviews are stored offchain, as to alleviate costs of Ethereum storage for writing detailed reviews by members.
+
+Healthraise funding&mdash;so you can get more health, not more burden.
