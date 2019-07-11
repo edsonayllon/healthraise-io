@@ -51,6 +51,19 @@
   justify-content: space-around;
 }
 
+.button-sponsor {
+  text-decoration: none;
+  color: #fff;
+  background-color: #3bb4c1;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-around;
+  width: 100px;
+  border-radius: 2.5px;
+}
+
 .menu-settings-icon {
   width: 20px;
   height: 20px;

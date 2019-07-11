@@ -11,8 +11,8 @@ export default function ProfileTile(props) {
         <div className="tile-votes">
           <div className="triangle"></div>
           <div className="votes">
-            <a href="#">&#9650; {'325'}</a>
-            <a href="#">&#9660; {'35'}</a>
+            <a href="#">&#9650; {props.upvote || '325'}</a>
+            <a href="#">&#9660; {props.downvote || '35'}</a>
           </div>
         </div>
       </div>
@@ -21,8 +21,8 @@ export default function ProfileTile(props) {
           <h2>{props.name}</h2>
           <span className="tile-header-raised">{props.raised} ETH raised</span>
         </div>
-
         <p>{props.description}</p>
+        <a href="#" className="button-sponsor">Sponsor</a>
       </div>
     </div>
   );

@@ -4,7 +4,8 @@ import '../App.css';
 import {
   Home,
   Profile,
-  Settings
+  Settings,
+  Individuals
 } from '../screens';
 
 export default function MainRouter() {
@@ -14,7 +15,7 @@ export default function MainRouter() {
         <Route path="/" exact component={Home} />
         <Route path="/u/:user" component={Profile} />
         <Route path="/settings" component={Settings} />
-        <Route path="/users/" component={Profile} />
+        <Route path="/individuals" component={Individuals} />
       </div>
     </Router>
   );

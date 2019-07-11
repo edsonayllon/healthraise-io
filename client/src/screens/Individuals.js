@@ -123,21 +123,13 @@ function App() {
         </div>
       </div>
       <div className="content">
-        <ProfileTile name={"Penn State Children’s Hospital"}
-          description = { `The money raised allows us to use novel
-            approaches in laboratory based research to
-            understand mechanisms that cause
-            pediatric cancer and to find pathways that
-            can be targeted with new drugs. It provides
-            the infrastructure for early phase clinical
-            &ials to test how new drugs work and
-            identify the best ways to use them together
-            and with chemotherapy.
+        <ProfileTile name={"Louis Simpson"}
+          description = { `Louis Simpson and his wife Kimberly Querrey recently gave $92 million to support a new 12-story research hub at Northwestern which will provide space for research into neurodegenerative disorders, as well as cancer, heart disease and genetics.
             ` }
           goal="na"
-          upvote="5134512"
-          downvote="123"
-          raised='551,767.71'
+          upvote="512"
+          downvote="0"
+          raised='0'
         />
         <ProfileTile name="Mark and Mary Stevens Neuroimaging and Informatics Institute"
           description = { `The research hub aims to foster the "translation of
