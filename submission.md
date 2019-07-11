@@ -10,6 +10,8 @@ Just lost your job and find yourself without healthcare coverage after becoming 
 
 Healthraise allows the posting and public viewing of fundraising incentives curated to philanthropists who will help you financially&mdash;so you can get more health, not more burden.
 
+[See Pitch Deck for a more detailed explanation](./pitch.md).
+
 ## Project Team
 
 Fullstack developer, business architecture:
@@ -28,11 +30,10 @@ Fullstack developer, business architecture:
 [Connect with Pichette on LinkedIn](https://www.linkedin.com/in/seth-w-f-pichette-36b12b94/).
 
 ## Link to Ancillary Material
-If some of your material cannot be uploaded to GitHub (ie. Google Slides, a pitch on Youtube, a metrics dashboard on BareMetrics), list it here!
 
-- **Pitch Deck:**
-- **Video Demo:**
-- **Demo URL:**
+- **[Pitch Deck:](./pitch.md)**
+- **[Product Roadmap & Design Documentation](./project-document.md)**
+- **[Installation instructions](./README.md)**
 
 ## Project Launch Page
 
