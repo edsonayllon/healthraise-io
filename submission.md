@@ -21,7 +21,8 @@ Fullstack developer, business architecture:
 
 [Seth W.F. Pichette](https://www.linkedin.com/in/seth-w-f-pichette-36b12b94/)&mdash;Author of the 2017 Initial Vermont Municipal Digital Currency and Blockchain Health Care Proposal. [Connect with him on LinkedIn](https://www.linkedin.com/in/seth-w-f-pichette-36b12b94/).
 
-> Testing blockqoute
+> How is the spending, of the funds raised within the organization, allocated and reported, a permissioned ledger? Some Transparency is key in creating value within any project's ecosystem. With DLT, it's possible to prove allocation throughout each step of the process.
+> Healthraise.io Project Testimonial by [Seth W.F. Pichette](https://www.linkedin.com/in/seth-w-f-pichette-36b12b94/)
 
 ## Link to Ancillary Material
 If some of your material cannot be uploaded to GitHub (ie. Google Slides, a pitch on Youtube, a metrics dashboard on BareMetrics), list it here!
