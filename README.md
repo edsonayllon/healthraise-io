@@ -4,7 +4,7 @@ category: proof of concept
 tags: 
 - whitepaper
 - ethereum
-= healthcare
+- healthcare
 - smart contract
 - react
 status: deferred
