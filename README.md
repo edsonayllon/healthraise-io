@@ -17,7 +17,7 @@ twitter: https://twitter.com/relativeread
 
 Healthcare social funding application.
 
-## 1 | Description
+## 1. Description
 
 ![Alt text](./documentation/health.gif)
 
@@ -27,7 +27,7 @@ Ethereum Health Platform project installation instructions.
 - See [Submission Readme](./submission.md) for Consensys hackathon submission information.
 - See [Product Design Documentation](./project-document.md) for design process and development roadmap.
 
-## 2 |  Getting Started
+## 2.  Getting Started
 
 ### 2.1 Install
 
